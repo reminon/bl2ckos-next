@@ -11,7 +11,7 @@
 #define AKMENU_LOADER_NAME "nds-bootstrap"
 #define AKMENU_PICO_NAME "Pico-Loader"
 #define AKMENU_LOADER_VERSION ""
-#else  // __KERNEL_LAUNCHER_SUPPORT__
+#else
 #if defined(__AKLOADER_AK2__)
 #define AKMENU_LOADER_NAME "BL2CK OS Next"
 #define AKMENU_LOADER_VERSION "1.31.0"
